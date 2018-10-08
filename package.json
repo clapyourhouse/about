@@ -1,0 +1,26 @@
+{
+  "name": "about",
+  "version": "1.0.0",
+  "description": "About Neo",
+  "private": true,
+  "scripts": {
+    "start": "node dev-css.js",
+    "build": "node build-css.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/about.git"
+  },
+  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neos21/about/issues"
+  },
+  "homepage": "https://github.com/Neos21/about#readme",
+  "devDependencies": {
+    "@neos21/neos-normalize": "1.0.3",
+    "node-sass": "4.9.0",
+    "strip-bom": "3.0.0",
+    "watch": "1.0.2"
+  }
+}
